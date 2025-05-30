@@ -15,5 +15,13 @@ pluginManagement {
     }
 }
 
+@Suppress("UnstableApiUsage")
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+    }
+}
+
 include(":learn-gradle")
 include(":trying-kotlin")
