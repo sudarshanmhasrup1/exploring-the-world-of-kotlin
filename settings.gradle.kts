@@ -1,18 +1,14 @@
-import org.gradle.kotlin.dsl.provideDelegate
-
 rootProject.name = "ExploringTheWorldOfKotlin"
 
 pluginManagement {
     repositories {
+        mavenCentral()
         gradlePluginPortal()
     }
+}
 
-    val foojayResolverConventionPluginId: String by settings
-    val foojayResolverConventionPluginVersion: String by settings
-
-    plugins {
-        id(foojayResolverConventionPluginId) version foojayResolverConventionPluginVersion
-    }
+plugins {
+    id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
 }
 
 @Suppress("UnstableApiUsage")
