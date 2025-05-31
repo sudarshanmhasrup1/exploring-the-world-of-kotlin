@@ -10,3 +10,4 @@ build-logic-plugin/.gradle
 
 # Build directory
 .build
+build-logic-plugin/build
