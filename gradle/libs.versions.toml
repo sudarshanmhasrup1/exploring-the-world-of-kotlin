@@ -7,3 +7,4 @@ ktlint = "12.3.0"
 [plugins]
 kotlin-compiler = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }
+java-gradle = { id = "java-gradle-plugin" }
