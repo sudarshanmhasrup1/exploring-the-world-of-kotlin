@@ -2,6 +2,10 @@
 kotlin = "2.1.21"
 ktlint = "12.3.0"
 
+# Build logic plugin release information
+buildLogicPlugin-groupId = "com.build.logic.plugin"
+buildLogicPlugin-version = "1.0.0"
+
 [libraries]
 
 [plugins]
