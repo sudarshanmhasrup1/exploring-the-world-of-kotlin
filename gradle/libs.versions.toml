@@ -1,6 +1,7 @@
 [versions]
 kotlin = "2.1.21"
 ktlint = "12.3.0"
+buildLogic = "1.0.0"
 
 # Build logic plugin release information
 buildLogicPlugin-groupId = "com.build.logic.plugin"
@@ -12,3 +13,4 @@ buildLogicPlugin-version = "1.0.0"
 kotlin-compiler = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }
 java-gradle = { id = "java-gradle-plugin" }
+build-logic = { id = "com.build.logic.plugin", version.ref = "buildLogic" }
