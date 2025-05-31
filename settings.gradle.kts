@@ -20,5 +20,5 @@ dependencyResolutionManagement {
 }
 
 include(":learn-gradle")
-include(":gradle-plugin")
 include(":trying-kotlin")
+includeBuild("build-logic-plugin")
