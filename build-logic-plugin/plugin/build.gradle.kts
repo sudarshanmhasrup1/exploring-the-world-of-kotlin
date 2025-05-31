@@ -1,20 +1,38 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
-    id("java-gradle-plugin")
-    id("org.jetbrains.kotlin.jvm") version "2.1.21"
+    alias(libs.plugins.java.gradle)
+    alias(libs.plugins.kotlin.compiler)
 }
 
 repositories {
     mavenCentral()
 }
 
+group = libs.versions.buildLogicPlugin.groupId.get()
+version = libs.versions.buildLogicPlugin.version.get()
+
 gradlePlugin {
     plugins {
         create("BuildLogicPlugin") {
-            id = "com.build.logic.plugin"
-            version = "1.0.0"
+            id = libs.versions.buildLogicPlugin.groupId.get()
+            version = libs.versions.buildLogicPlugin.version.get()
             implementationClass = "com.build.logic.plugin.BuildLogic"
         }
     }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
+    }
+
+    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_11
+}
+
+kotlin.compilerOptions {
+    jvmTarget = JvmTarget.JVM_11
 }
 
 // Custom build directory
