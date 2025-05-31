@@ -1,5 +1,6 @@
 # Gradle cache folder
 .gradle
+build-logic-plugin/.gradle
 
 # Idea configuration folder
 .idea
