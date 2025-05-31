@@ -2,5 +2,24 @@ plugins {
 
 }
 
-// Custom build directory
-layout.buildDirectory.set(file(path = "$rootDir/.build/learnGradle"))
+tasks.register("configure") {
+    doFirst {
+        println("1. Configuring the \"learn-gradle\" module.")
+    }
+}
+
+tasks.named("configure") {
+    doLast {
+       println("2. Modifying the \"learn-gradle\" module.")
+    }
+}
+
+tasks.register("run") {
+    doFirst {
+        println("3. Generating the output.")
+    }
+   doLast {
+       println("Hello world!")
+   }
+   dependsOn("configure")
+}
