@@ -14,3 +14,9 @@ one. Here’s the list of concepts:
 7) Use of `String templates` to smartly include value of variable into a string.
 8) Use of `Template expression` to smartly include result of any expression into a string.
 9) Commonly used data types in Kotlin: `String`, `Int`, `Boolean`, `Char` and `Double`.
+10) Declaring a function in Kotlin using the `fun` keyword.
+11) Defining a function which accepts inputs, also known as `parameters`.
+12) Calling a functions using `named arguments`.
+13) Declaring functions with `default arguments`.
+14) Declaring a function which returns a value.
+15) `Block body` vs `Expression body` in functions.
