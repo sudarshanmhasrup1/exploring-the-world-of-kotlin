@@ -1,4 +1,5 @@
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import com.build.logic.config.configureJvmTargetTo17
+import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
 
 plugins {
     alias(libs.plugins.kotlin.compiler)
@@ -6,20 +7,19 @@ plugins {
     alias(libs.plugins.ktlint)
 }
 
+val ktlintRuleSet = mapOf(
+    "ktlint_standard_final-newline" to "disabled",
+    "ktlint_standard_no-empty-file" to "disabled",
+    "ktlint_standard_trailing-comma-on-call-site" to "disabled",
+)
+
 ktlint {
     android = false
     ignoreFailures = false
-}
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(11)
+    additionalEditorconfig.set(ktlintRuleSet)
+    reporters {
+        reporter(reporterType = ReporterType.HTML)
     }
-
-    targetCompatibility = JavaVersion.VERSION_11
-    sourceCompatibility = JavaVersion.VERSION_11
 }
 
-kotlin.compilerOptions {
-    jvmTarget = JvmTarget.JVM_11
-}
+configureJvmTargetTo17(enableToolchain = true)
