@@ -2,6 +2,7 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.kotlin.compiler)
+    alias(libs.plugins.build.logic)
     alias(libs.plugins.ktlint)
 }
 
@@ -22,6 +23,3 @@ java {
 kotlin.compilerOptions {
     jvmTarget = JvmTarget.JVM_11
 }
-
-// Custom build directory
-layout.buildDirectory.set(file(path = "$rootDir/.build/tryingKotlin"))
