@@ -8,10 +8,11 @@ fun main() {
     val lastName = "Mhasrup"
     val age = 21
 
-    println("""
+    val message = """
         Username: $username.
         Full name: $firstName $lastName.
         Gender: $gender.
         Age: $age years.
-    """.trimIndent())
+    """.trimIndent()
+    println(message = message)
 }

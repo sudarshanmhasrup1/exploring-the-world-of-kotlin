@@ -19,10 +19,10 @@ fun main() {
     // Float data type
     val attendance = 78.20F
 
-    println("Name: $fullName.")
-    println("Age: $age years.")
-    println("Class/Division: $division.")
-    println("CGPA: $cgpa.")
-    println("Attendance: $attendance%.")
-    println("Is developer: $isDeveloper.")
+    println(message = "Name: $fullName.")
+    println(message = "Age: $age years.")
+    println(message = "Class/Division: $division.")
+    println(message = "CGPA: $cgpa.")
+    println(message = "Attendance: $attendance%.")
+    println(message = "Is developer: $isDeveloper.")
 }

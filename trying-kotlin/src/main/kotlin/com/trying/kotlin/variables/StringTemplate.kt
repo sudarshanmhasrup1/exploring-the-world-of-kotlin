@@ -5,8 +5,8 @@ fun main() {
     val fullName = "Sudarshan Mhasrup"
 
     // Dumb way to print full name
-    println("My name is " + fullName + ".")
+    println(message = "My name is " + fullName + ".")
 
     // Smart way to print full name
-    println("My name is $fullName.")
+    println(message = "My name is $fullName.")
 }
