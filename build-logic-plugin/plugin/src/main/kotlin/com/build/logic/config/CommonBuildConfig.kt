@@ -1,4 +1,4 @@
-package com.build.logic.plugin
+package com.build.logic.config
 
 import org.gradle.api.Project
 
