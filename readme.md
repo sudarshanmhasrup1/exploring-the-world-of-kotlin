@@ -20,3 +20,9 @@ one. Here’s the list of concepts:
 13) Declaring functions with `default arguments`.
 14) Declaring a function which returns a value.
 15) `Block body` vs `Expression body` in functions.
+16) Using a condition using `if` statement.
+17) Handling multiple conditions using `if-else`.
+18) Using `in` keyword with ranges.
+19) Using `when` statement.
+20) Using `if-else` as an expression.
+21) Using `when` as an expression.
