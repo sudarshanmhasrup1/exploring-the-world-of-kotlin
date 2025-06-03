@@ -1,4 +1,4 @@
-rootProject.name = "build-logic-plugin"
+rootProject.name = "build-logic"
 
 dependencyResolutionManagement {
     versionCatalogs {
