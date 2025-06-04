@@ -26,3 +26,7 @@ one. Here’s the list of concepts:
 19) Using `when` statement.
 20) Using `if-else` as an expression.
 21) Using `when` as an expression.
+22) Declaring a nullable variable using `?` operator.
+23) Using safe call operator `?.` to call methods on nullable a variable.
+24) Using not-null assertion operator `!!.`.
+25) Use of the elvis operator `?:`.
