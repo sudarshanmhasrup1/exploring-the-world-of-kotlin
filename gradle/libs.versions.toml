@@ -13,6 +13,6 @@ kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", v
 
 [plugins]
 kotlin-compiler = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
-build-logic = { id = "com.build.logic.plugin", version.ref = "buildLogic" }
+build-logic = { id = "com.build.logic.plugin" }
 java-gradle = { id = "java-gradle-plugin" }
 ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }
