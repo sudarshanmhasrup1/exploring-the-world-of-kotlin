@@ -38,8 +38,6 @@ private fun setJvmTarget(
             jvmTarget.set(kotlinTarget)
         }
     }
-
-    println("JDK Applied $jdk")
 }
 
 // Set JVM target to Java 8
