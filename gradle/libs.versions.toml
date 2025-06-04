@@ -6,6 +6,7 @@ ktlint = "12.3.0"
 # Build logic plugin release information
 buildLogicPlugin-groupId = "com.build.logic.plugin"
 buildLogicPlugin-version = "1.0.0"
+buildLogicPlugin-implementationClass = "com.build.logic.BuildLogic"
 
 [libraries]
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
