@@ -3,21 +3,28 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     alias(libs.plugins.java.gradle)
     alias(libs.plugins.kotlin.compiler)
+    alias(libs.plugins.ktlint)
+    `kotlin-dsl`
 }
+
+group = libs.versions.buildLogicPlugin.groupId.get()
+version = libs.versions.buildLogicPlugin.version.get()
 
 repositories {
     mavenCentral()
 }
 
-group = libs.versions.buildLogicPlugin.groupId.get()
-version = libs.versions.buildLogicPlugin.version.get()
+dependencies {
+    implementation(libs.kotlin.gradle.plugin)
+    testImplementation(libs.kotlin.test)
+}
 
 gradlePlugin {
     plugins {
         create("BuildLogicPlugin") {
             id = libs.versions.buildLogicPlugin.groupId.get()
             version = libs.versions.buildLogicPlugin.version.get()
-            implementationClass = "com.build.logic.plugin.BuildLogic"
+            implementationClass = libs.versions.buildLogicPlugin.implementationClass.get()
         }
     }
 }
