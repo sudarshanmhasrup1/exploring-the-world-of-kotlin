@@ -1,14 +1,14 @@
 # Gradle cache folder
 .gradle
-build-logic-plugin/.gradle
+build-logic/.gradle
 
 # Idea configuration folder
 .idea
 
 # Kotlin cache folder
 .kotlin
-build-logic-plugin/.kotlin
+build-logic/.kotlin
 
 # Build directory
 .build
-build-logic-plugin/.build
+build-logic/.build
