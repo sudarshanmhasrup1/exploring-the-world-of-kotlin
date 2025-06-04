@@ -1,6 +1,6 @@
-package com.build.logic.plugin.util
+package com.build.logic.util
 
-object ProjectDirectoryNameManager {
+internal object ProjectDirectoryNameManager {
 
     fun getFormattedProjectDirectoryName(projectDirectoryName: String): String {
 
