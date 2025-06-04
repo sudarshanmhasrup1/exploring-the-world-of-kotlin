@@ -8,6 +8,7 @@ buildLogicPlugin-groupId = "com.build.logic.plugin"
 buildLogicPlugin-version = "1.0.0"
 
 [libraries]
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 
 [plugins]
 kotlin-compiler = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
