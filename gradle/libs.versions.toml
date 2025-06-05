@@ -1,5 +1,6 @@
 [versions]
 # Library and plugin versions
+activityCompose = "1.10.1"
 kotlin = "2.1.21"
 ktlint = "12.3.0"
 androidGradlePlugin = "8.10.1"
@@ -30,6 +31,7 @@ androidApp-versionName = "1.0.0"
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 ktlint-gradle-plugin = { module = "org.jlleitschuh.gradle.ktlint:org.jlleitschuh.gradle.ktlint.gradle.plugin", version.ref = "ktlint" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
 
 [plugins]
 java-gradle = { id = "java-gradle-plugin" }
