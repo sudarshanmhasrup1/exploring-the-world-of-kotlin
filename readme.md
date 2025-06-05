@@ -50,3 +50,7 @@ Here's the list of topics covered:
 23. Using the safe call operator `?.` for nullable variables
 24. Using the not-null assertion operator `!!` to force non-null access
 25. Using the Elvis operator `?:` to provide default values
+26. Utilizing the function reference operator `::`.
+27. Defining a function without using the `fun` keyword.
+28. Passing a function as an argument to another function.
+29. Applying trailing lambda syntax for cleaner code.
