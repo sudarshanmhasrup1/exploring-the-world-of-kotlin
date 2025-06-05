@@ -1,5 +1,7 @@
-plugins {
+import com.build.logic.config.configureJvmTargetTo11
 
+plugins {
+    alias(libs.plugins.build.logic)
 }
 
 tasks.register("configure") {
@@ -23,3 +25,5 @@ tasks.register("run") {
    }
    dependsOn("configure")
 }
+
+configureJvmTargetTo11(enableToolchain = true)
