@@ -8,7 +8,7 @@ maintainability, and keeps the architecture clean and scalable.
 - `/build-logic`: A custom plugin created to centralize and extract all reusable build logic for easier management and
   reuse. This module is a composite build included in the main project build using the `includeBuild()` function in
   `settings.gradle.kts`.
-- `/learn-gradle`:This module was created for experimental purposes to learn how to create simple tasks in a Gradle
+- `/learn-gradle`: This module was created for experimental purposes to learn how to create simple tasks in a Gradle
   module. It is for learning only and doesn’t contain any useful source code, so it can be safely ignored.
 
 ### Trying Kotlin
