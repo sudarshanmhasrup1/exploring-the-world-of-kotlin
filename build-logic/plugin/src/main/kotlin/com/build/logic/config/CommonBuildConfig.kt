@@ -24,11 +24,11 @@ fun Project.configureBuildDirectory(buildDirectoryPath: String) {
  *
  * ```
  * [versions]
- * myModule-groupId = "com.example.mymodule"
+ * myModule-groupId = "com.example.module"
  * myModule-version = "1.0.0"
  * ```
  *
- * Where `myModule` is the formatted project name returned by a internal method.
+ * Where `myModule` is the formatted project name returned by an internal method.
  *
  * For example, if the project directory name is `learn-gradle`, then it will look for:
  * - `learnGradle-groupId` in the version catalog
