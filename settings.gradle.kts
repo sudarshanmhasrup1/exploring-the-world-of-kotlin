@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 includeBuild("build-logic")
 include(":learn-gradle")
 include(":trying-kotlin")
+include(":android-app")
