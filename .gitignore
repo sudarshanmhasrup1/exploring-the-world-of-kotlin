@@ -5,9 +5,10 @@ build-logic/.gradle
 # Idea configuration folder
 .idea
 
-# Kotlin cache folder
+# Kotlin cache folder & files
 .kotlin
 build-logic/.kotlin
+kotlin-playground/src/main/kotlin/com/kotlin/playground/KotlinFunGround.kt
 
 # Build directory
 .build
