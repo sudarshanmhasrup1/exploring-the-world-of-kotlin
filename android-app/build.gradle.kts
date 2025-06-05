@@ -7,6 +7,7 @@ plugins {
     alias(libs.plugins.ktlint)
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.compose.compiler)
 }
 
 configureGroupIdAndVersion()
@@ -23,6 +24,15 @@ android {
         minSdk = libs.versions.androidApp.minSdk.get().toInt()
         versionCode = libs.versions.androidApp.versionCode.get().toInt()
         versionName = libs.versions.androidApp.versionName.get()
+    }
+
+    compileOptions {
+        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = "11"
     }
 }
 
