@@ -2,7 +2,7 @@
 # Library and plugin versions
 kotlin = "2.1.21"
 ktlint = "12.3.0"
-androidGradlePlugin = "8.10.0"
+androidGradlePlugin = "8.10.1"
 
 # Build logic plugin release information
 buildLogicPlugin-groupId = "com.build.logic.plugin"
@@ -23,8 +23,8 @@ androidApp-version = "1.0.0"
 androidApp-compileSdk = "36"
 androidApp-targetSdk = "36"
 androidApp-minSdk = "30"
-androidApp-versionName = "1"
-androidApp-versionCode = "1.0.0"
+androidApp-versionCode = "1"
+androidApp-versionName = "1.0.0"
 
 [libraries]
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
