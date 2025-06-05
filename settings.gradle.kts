@@ -24,4 +24,6 @@ dependencyResolutionManagement {
 includeBuild("build-logic")
 include(":learn-gradle")
 include(":trying-kotlin")
+include(":kotlin-playground")
 include(":android-app")
+include(":compose-app")
