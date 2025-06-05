@@ -1,4 +1,4 @@
-### 📁 Project structure
+### Project structure
 
 I'm using a multi-module approach to structure this project because it targets multiple platforms—Desktop (JVM), iOS (
 Native), and Android. Keeping all code in a single module isn't practical in such cases. The project includes a reusable
@@ -11,7 +11,7 @@ maintainability, and keeps the architecture clean and scalable.
 - `/learn-gradle`:This module was created for experimental purposes to learn how to create simple tasks in a Gradle
   module. It is for learning only and doesn’t contain any useful source code, so it can be safely ignored.
 
-### 📚 Trying Kotlin
+### Trying Kotlin
 
 Kotlin is a concise and expressive language full of syntactic sugar, making coding enjoyable and fast for turning ideas
 into real applications. This module covers the essential Kotlin features you need to get started or refresh your
