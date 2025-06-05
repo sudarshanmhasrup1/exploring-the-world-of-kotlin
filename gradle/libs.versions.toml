@@ -1,12 +1,19 @@
 [versions]
 kotlin = "2.1.21"
-buildLogic = "1.0.0"
 ktlint = "12.3.0"
 
 # Build logic plugin release information
 buildLogicPlugin-groupId = "com.build.logic.plugin"
 buildLogicPlugin-version = "1.0.0"
 buildLogicPlugin-implementationClass = "com.build.logic.BuildLogic"
+
+# Learn gradle module information
+learnGradle-groupId = "com.learn.gradle"
+learnGradle-version = "1.0.0"
+
+# Trying kotlin module information
+tryingKotlin-groupId = "com.learn.gradle"
+tryingKotlin-version = "1.0.0"
 
 [libraries]
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
