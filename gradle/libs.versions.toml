@@ -16,13 +16,22 @@ learnGradle-version = "1.0.0"
 tryingKotlin-groupId = "com.learn.gradle"
 tryingKotlin-version = "1.0.0"
 
+# Android app package information
+androidApp-groupId = "com.cmp.android"
+androidApp-version = "1.0.0"
+androidApp-compileSdk = "36"
+androidApp-targetSdk = "36"
+androidApp-minSdk = "30"
+androidApp-versionName = "1"
+androidApp-versionCode = "1.0.0"
+
 [libraries]
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 ktlint-gradle-plugin = { module = "org.jlleitschuh.gradle.ktlint:org.jlleitschuh.gradle.ktlint.gradle.plugin", version.ref = "ktlint" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
 [plugins]
-build-logic = { id = "com.build.logic.plugin" }
 java-gradle = { id = "java-gradle-plugin" }
-kotlin-compiler = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+build-logic = { id = "com.build.logic.plugin" }
 ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }
+kotlin-compiler = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
