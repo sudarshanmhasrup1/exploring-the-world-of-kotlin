@@ -12,3 +12,6 @@ build-logic/.kotlin
 # Build directory
 .build
 build-logic/.build
+
+# Local properties
+local.properties
