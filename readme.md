@@ -1,32 +1,45 @@
-#### Trying Kotlin
+### 📁 Project structure
 
-Kotlin is a concise language with a lot of syntactic sugar, making it fun to write and great for turning ideas into
-reality. To learn Kotlin, it's important to understand its most commonly used concepts. So, I’ve decided to create a
-module that lists these key Kotlin concepts. You can refer to the official Kotlin documentation to learn more about each
-one. Here’s the list of concepts:
+I'm using a multi-module approach to structure this project because it targets multiple platforms—Desktop (JVM), iOS (
+Native), and Android. Keeping all code in a single module isn't practical in such cases. The project includes a reusable
+design system, a custom Gradle plugin for centralized build logic, and more. Modularization improves reusability,
+maintainability, and keeps the architecture clean and scalable.
 
-1) `Hello World` in Kotlin.
-2) Use of the `println()` function to display output.
-3) Printing a whole paragraph using `""" ""` (triple quotes).
-4) Single-line` and `multi-line` comment.
-5) Use of the `val` keyword to declare immutable variables.
-6) Use of the `var` keyword to declare mutable variable.
-7) Use of `String templates` to smartly include value of variable into a string.
-8) Use of `Template expression` to smartly include result of any expression into a string.
-9) Commonly used data types in Kotlin: `String`, `Int`, `Boolean`, `Char` and `Double`.
-10) Declaring a function in Kotlin using the `fun` keyword.
-11) Defining a function which accepts inputs, also known as `parameters`.
-12) Calling a functions using `named arguments`.
-13) Declaring functions with `default arguments`.
-14) Declaring a function which returns a value.
-15) `Block body` vs `Expression body` in functions.
-16) Using a condition using `if` statement.
-17) Handling multiple conditions using `if-else`.
-18) Using `in` keyword with ranges.
-19) Using `when` statement.
-20) Using `if-else` as an expression.
-21) Using `when` as an expression.
-22) Declaring a nullable variable using `?` operator.
-23) Using safe call operator `?.` to call methods on nullable a variable.
-24) Using not-null assertion operator `!!.`.
-25) Use of the elvis operator `?:`.
+- `/build-logic`: A custom plugin created to centralize and extract all reusable build logic for easier management and
+  reuse. This module is a composite build included in the main project build using the `includeBuild()` function in
+  `settings.gradle.kts`.
+- `/learn-gradle`:This module was created for experimental purposes to learn how to create simple tasks in a Gradle
+  module. It is for learning only and doesn’t contain any useful source code, so it can be safely ignored.
+
+### 📚 Trying Kotlin
+
+Kotlin is a concise and expressive language full of syntactic sugar, making coding enjoyable and fast for turning ideas
+into real applications. This module covers the essential Kotlin features you need to get started or refresh your
+knowledge. You can always refer to the [official Kotlin documentation](https://kotlinlang.org/docs/home.html) for deeper
+understanding. Here's the list of topics covered:
+
+1. Writing a basic `Hello World` program
+2. Displaying output with `println()`
+3. Printing multi-line text using triple quotes `""" """`
+4. Writing single-line and multi-line comments
+5. Declaring immutable variables with `val`
+6. Declaring mutable variables with `var`
+7. Using **string templates** to embed variables in strings
+8. Using **template expressions** to embed expressions inside strings
+9. Common data types: `String`, `Int`, `Boolean`, `Char`, and `Double`
+10. Declaring functions with the `fun` keyword
+11. Defining functions with input parameters
+12. Calling functions using **named arguments**
+13. Using **default arguments** in functions
+14. Writing functions that return values
+15. Difference between **block body** and **expression body** functions
+16. Using `if` statements for conditional logic
+17. Handling multiple conditions with `if-else`
+18. Using the `in` keyword with ranges
+19. Using the `when` statement as a replacement for `if-else` chains
+20. Using `if-else` as an expression that returns a value
+21. Using `when` as an expression that returns a value
+22. Declaring nullable variables with the `?` operator
+23. Using the safe call operator `?.` for nullable variables
+24. Using the not-null assertion operator `!!` to force non-null access
+25. Using the Elvis operator `?:` to provide default values
