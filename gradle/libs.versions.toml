@@ -3,6 +3,7 @@
 activityCompose = "1.10.1"
 kotlin = "2.1.21"
 ktlint = "12.3.0"
+kotlinxCouroutines = "1.10.2"
 androidGradlePlugin = "8.10.1"
 composeMultiplatform = "1.8.1"
 
@@ -32,6 +33,7 @@ androidApp-versionName = "1.0.0"
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 ktlint-gradle-plugin = { module = "org.jlleitschuh.gradle.ktlint:org.jlleitschuh.gradle.ktlint.gradle.plugin", version.ref = "ktlint" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCouroutines" }
 activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
 compose-multiplatform-ui-tooling-preview = { module = "org.jetbrains.compose.components:components-ui-tooling-preview", version.ref = "composeMultiplatform" }
 compose-multiplatform-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "composeMultiplatform" }
