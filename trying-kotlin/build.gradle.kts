@@ -11,3 +11,7 @@ plugins {
 configureGroupIdAndVersion()
 configureKtlint()
 configureJvmTargetTo11(enableToolchain = true)
+
+dependencies {
+    implementation(libs.kotlinx.coroutines.core)
+}
