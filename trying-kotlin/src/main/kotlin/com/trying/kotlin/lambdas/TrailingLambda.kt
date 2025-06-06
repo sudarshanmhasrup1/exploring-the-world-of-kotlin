@@ -4,6 +4,6 @@ fun main() {
     display { "Hello world!" }
 }
 
-fun display(message: () -> String) {
+private fun display(message: () -> String) {
     println(message = message())
 }

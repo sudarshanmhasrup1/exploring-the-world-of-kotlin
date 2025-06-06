@@ -4,6 +4,6 @@ fun main() {
     greet()
 }
 
-val greet = {
+private val greet = {
     println(message = "Good morning!")
 }

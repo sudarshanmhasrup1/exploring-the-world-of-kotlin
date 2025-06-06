@@ -1,6 +1,6 @@
 package com.trying.kotlin.conditionals
 
-@Suppress("CascadeIf")
+@Suppress("CascadeIf", "KotlinConstantConditions")
 fun main() {
     val trafficLightColor = "Red"
 

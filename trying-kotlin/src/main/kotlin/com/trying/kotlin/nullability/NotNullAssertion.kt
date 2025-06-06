@@ -1,5 +1,6 @@
 package com.trying.kotlin.nullability
 
+@Suppress("KotlinConstantConditions")
 fun main() {
     val userInput: String? = null
 

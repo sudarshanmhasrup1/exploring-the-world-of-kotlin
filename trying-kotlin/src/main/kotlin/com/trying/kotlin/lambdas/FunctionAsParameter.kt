@@ -4,7 +4,7 @@ fun main() {
     calculate(expression = { 40 + 20 })
 }
 
-fun calculate(expression: () -> Any) {
+private fun calculate(expression: () -> Any) {
     val result = expression()
     println(message = result)
 }
