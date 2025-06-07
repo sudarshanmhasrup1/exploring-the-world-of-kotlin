@@ -56,3 +56,7 @@ Here's the list of topics covered:
 27. Defining a function without using the `fun` keyword.
 28. Passing a function as an argument to another function.
 29. Applying trailing lambda syntax for cleaner code.
+30. Understanding OOP in Kotlin: `Classes`, `Objects`, `Class methods`, `Class properties`, `Primary constructor`,
+    `Secondary constructor`
+31. Understanding `Inheritance` in Kotlin along with `Overriding methods` in a child class, use of the `super` keyword.
+32. Using `Property delegates` to delegate work.
