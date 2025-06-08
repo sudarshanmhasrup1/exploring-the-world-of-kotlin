@@ -65,12 +65,11 @@ Here's the list of topics covered:
 35. Looping in Kotlin using the `for` loop.
 36. Operations on `strings`.
 
-### Thank you
+### Thank you 🙌
 
 I'm glad you took the time to look at this repository. I understand the struggle when someone is learning a new language
 or switching to a different one. I just want to say—believe me—you’ll start loving Kotlin more than anything.
 When I first started, I used to love Java and JavaScript. I thought Kotlin wouldn’t replace them for me, but here I am.
-Now, every other language feels awkward if it's not Kotlin. 
-
-All the best, and welcome to the world of Kotlin. Thank you so much for checking out this repository!
+Now, every other language feels awkward if it's not Kotlin. All the best, and welcome to the world of Kotlin. Thank you
+so much for checking out this repository!
 
