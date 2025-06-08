@@ -59,4 +59,8 @@ Here's the list of topics covered:
 30. Understanding OOP in Kotlin: `Classes`, `Objects`, `Class methods`, `Class properties`, `Primary constructor`,
     `Secondary constructor`
 31. Understanding `Inheritance` in Kotlin along with `Overriding methods` in a child class, use of the `super` keyword.
-32. Using `Property delegates` to delegate work.
+32. Using `property delegates` to delegate work.
+33. Looping in Kotlin using the `while` loop.
+34. Looping in Kotlin using the `do-while` loop.
+35. Looping in Kotlin using the `for` loop.
+36. Operations on `strings`.
