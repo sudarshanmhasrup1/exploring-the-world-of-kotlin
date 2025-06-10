@@ -2,7 +2,7 @@ package com.trying.kotlin.functions
 
 private fun display(
     message: String,
-    from: String,
+    from: String
 ) {
     println(message = "Message: $message")
     println(message = "From: $from.")

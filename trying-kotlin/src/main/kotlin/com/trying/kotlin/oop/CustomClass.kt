@@ -5,7 +5,6 @@ private class HumanBeing(
     private val age: Int,
     private val gender: String
 ) {
-
     private var favouriteActor: String? = null
 
     // Secondary constructor

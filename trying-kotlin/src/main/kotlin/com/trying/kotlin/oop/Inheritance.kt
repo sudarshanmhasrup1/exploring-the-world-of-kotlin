@@ -1,10 +1,10 @@
 package com.trying.kotlin.oop
 
+@Suppress("Unused")
 open class SmartDevice(
     private val name: String,
     private val category: String
 ) {
-
     var deviceStatus = "Online"
         protected set
 
@@ -27,7 +27,6 @@ class SmartTvDevice(
     name = name,
     category = category
 ) {
-
     private var speakerVolume = 1
         set(value) {
             if (value in 0..100) {
@@ -66,7 +65,6 @@ class SmartLightDevice(
     name = name,
     category = category
 ) {
-
     private var brightnessLevel = 0
         set(value) {
             if (value in 0..100) {
@@ -92,11 +90,11 @@ class SmartLightDevice(
 }
 
 // HAS-A relationship
+@Suppress("Unused")
 class SmartHome(
     val smartTvDevice: SmartTvDevice,
     val smartLightDevice: SmartLightDevice
 ) {
-
     var deviceTurnOnCount = 0
         private set
 

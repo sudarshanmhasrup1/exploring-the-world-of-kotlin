@@ -2,7 +2,7 @@ package com.trying.kotlin.functions
 
 private fun addition(
     firstNumber: Int,
-    secondNumber: Int,
+    secondNumber: Int
 ): Int {
     return firstNumber + secondNumber
 }

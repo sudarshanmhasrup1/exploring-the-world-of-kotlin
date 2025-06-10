@@ -1,8 +1,6 @@
 package com.trying.kotlin.strings
 
-import java.util.UUID
-
-private val usedIdList = mutableListOf<String>()
+import java.util.*
 
 fun main() {
     val message = buildString {

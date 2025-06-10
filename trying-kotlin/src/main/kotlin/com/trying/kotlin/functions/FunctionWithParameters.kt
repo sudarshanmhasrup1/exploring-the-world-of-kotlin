@@ -4,7 +4,7 @@ package com.trying.kotlin.functions
 private fun sendMail(
     senderEmailAddress: String,
     receiverEmailAddress: String,
-    message: String,
+    message: String
 ) {
     println(message = "Email from: $senderEmailAddress.")
     println(message = "Email to: $receiverEmailAddress.")

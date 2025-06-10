@@ -2,7 +2,7 @@ package com.trying.kotlin.functions
 
 private fun greet(
     greetings: String = "Hello",
-    name: String = "Stranger",
+    name: String = "Stranger"
 ) {
     println(message = "$greetings $name!")
 }

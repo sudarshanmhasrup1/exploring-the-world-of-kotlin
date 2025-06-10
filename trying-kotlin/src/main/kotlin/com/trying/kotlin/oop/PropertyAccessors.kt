@@ -10,7 +10,6 @@ private class BroadcastManager() {
 }
 
 fun main() {
-
     val broadcastManager = BroadcastManager()
 
     repeat(times = 102) {
