@@ -47,9 +47,9 @@ private class HumanBeing(
 
 private fun displayDivider(bigDivider: Boolean = false) {
     if (bigDivider) {
-        println("=======================================================")
+        println(message = "=======================================================")
     } else {
-        println("-------------------------------------------------------")
+        println(message = "-------------------------------------------------------")
     }
 }
 

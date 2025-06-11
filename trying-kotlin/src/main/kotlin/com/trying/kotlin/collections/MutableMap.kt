@@ -7,7 +7,7 @@ fun main() {
         "user3" to "James"
     )
 
-    users.put("user4", "Jimmy")
+    users.put(key = "user4", value = "Jimmy")
 
     users.forEach {
         println("${it.key}: ${it.value}.")

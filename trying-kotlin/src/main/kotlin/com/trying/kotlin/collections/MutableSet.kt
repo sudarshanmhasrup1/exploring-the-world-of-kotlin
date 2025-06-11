@@ -7,6 +7,6 @@ fun main() {
 
     println("Solar System Planets:")
     for (planet in solarSystem) {
-        println(planet)
+        println(message = planet)
     }
 }

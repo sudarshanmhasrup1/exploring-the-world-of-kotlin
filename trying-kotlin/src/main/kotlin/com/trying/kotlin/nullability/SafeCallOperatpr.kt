@@ -4,5 +4,5 @@ package com.trying.kotlin.nullability
 fun main() {
     var username: String? = null
     username = "sudarshanmhasrup"
-    println(username?.length) // Safe call operator
+    println(message = username?.length) // Safe call operator
 }

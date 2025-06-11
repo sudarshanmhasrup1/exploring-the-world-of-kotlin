@@ -5,6 +5,6 @@ fun main() {
     for (i in 1..100) {
         val currentSumValue = sum
         sum += i
-        println("$i + $currentSumValue = $sum")
+        println(message = "$i + $currentSumValue = $sum")
     }
 }

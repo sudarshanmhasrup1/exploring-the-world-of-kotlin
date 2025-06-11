@@ -8,5 +8,5 @@ fun main() {
     // Better way with type inference
     val lastName = "Mhasrup"
 
-    println("My name is $firstName $lastName.")
+    println(message = "My name is $firstName $lastName.")
 }

@@ -7,7 +7,7 @@ fun main() {
         repeat(times = 20) {
             val randomId = UUID.randomUUID().toString()
             append("Hello from random person with id: $randomId")
-            appendLine("!")
+            appendLine(value = "!")
         }
     }
 

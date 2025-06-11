@@ -8,6 +8,6 @@ fun main() {
     )
 
     users.forEach {
-        println("${it.key}: ${it.value}.")
+        println(message = "${it.key}: ${it.value}.")
     }
 }
