@@ -64,6 +64,9 @@ Here's the list of topics covered:
 34. Looping in Kotlin using the `do-while` loop.
 35. Looping in Kotlin using the `for` loop.
 36. Operations on `strings`.
+37. Creating and using `List` in Kotlin.
+38. Creating and using `Set` in Kotlin.
+39. Creating and using `Map` in Kotlin.
 
 ### Thank you 🙌
 
