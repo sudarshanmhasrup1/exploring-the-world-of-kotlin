@@ -1,3 +1,13 @@
+### About this repository
+
+My love for the Kotlin programming language is so pure. I discovered the Kotlin programming language
+in 2023 when I was in the second year of my college. I've formerly worked in programming languages
+like Java, JavaScript, C, and C++, but out of all of these, I found I enjoy Kotlin the most. This
+repository contains all the source code I created in Kotlin, including a design system as well as
+custom plugins to manage my workflow. This repository also contains code snippets and examples to
+achieve certain features in our software using Kotlin. It also contains a multiplatform app as well
+as a backend API, which demonstrates the power of Kotlin.1
+
 ### Project structure
 
 I'm using a multi-module approach to structure this project because it targets multiple
@@ -58,9 +68,11 @@ Here's the list of topics covered:
 27. Defining a function without using the `fun` keyword.
 28. Passing a function as an argument to another function.
 29. Applying trailing lambda syntax for cleaner code.
-30. Understanding OOP in Kotlin: `Classes`, `Objects`, `Class methods`, `Class properties`, `Primary constructor`,
+30. Understanding OOP in Kotlin: `Classes`, `Objects`, `Class methods`, `Class properties`,
+    `Primary constructor`,
     `Secondary constructor`
-31. Understanding `Inheritance` in Kotlin along with `Overriding methods` in a child class, use of the `super` keyword.
+31. Understanding `Inheritance` in Kotlin along with `Overriding methods` in a child class, use of
+    the `super` keyword.
 32. Using `property delegates` to delegate work.
 33. Looping in Kotlin using the `while` loop.
 34. Looping in Kotlin using the `do-while` loop.
@@ -77,9 +89,13 @@ Here's the list of topics covered:
 
 ### Thank you 🙌
 
-I'm glad you took the time to look at this repository. I understand the struggle when someone is learning a new language
-or switching to a different one. I just want to say—believe me—you’ll start loving Kotlin more than anything.
-When I first started, I used to love Java and JavaScript. I thought Kotlin wouldn’t replace them for me, but here I am.
-Now, every other language feels awkward if it's not Kotlin. All the best, and welcome to the world of Kotlin. Thank you
+I'm glad you took the time to look at this repository. I understand the struggle when someone is
+learning a new language
+or switching to a different one. I just want to say—believe me—you’ll start loving Kotlin more than
+anything.
+When I first started, I used to love Java and JavaScript. I thought Kotlin wouldn’t replace them for
+me, but here I am.
+Now, every other language feels awkward if it's not Kotlin. All the best, and welcome to the world
+of Kotlin. Thank you
 so much for checking out this repository!
 
