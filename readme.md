@@ -6,7 +6,7 @@ like Java, JavaScript, C, and C++, but out of all of these, I found I enjoy Kotl
 repository contains all the source code I created in Kotlin, including a design system as well as
 custom plugins to manage my workflow. This repository also contains code snippets and examples to
 achieve certain features in our software using Kotlin. It also contains a multiplatform app as well
-as a backend API, which demonstrates the power of Kotlin.1
+as a backend API, which demonstrates the power of Kotlin.
 
 ### Project structure
 
