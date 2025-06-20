@@ -8,6 +8,12 @@ private val ktlintRuleSet = mapOf(
     "ktlint_standard_final-newline" to "disabled",
     "ktlint_standard_no-empty-file" to "disabled",
     "ktlint_standard_trailing-comma-on-call-site" to "disabled",
+    "ktlint_standard_trailing-comma-on-declaration-site" to "disabled",
+    "ktlint_standard_multiline-expression-wrapping" to "disabled",
+    "ktlint_standard_indentation" to "disabled",
+    "ktlint_standard_string-template-indent" to "disabled",
+    "ktlint_standard_indent" to "disabled",
+    "ktlint_standard_no-empty-first-line-in-class-body" to "disabled"
 )
 
 /**
@@ -33,7 +39,6 @@ fun Project.configureKtlint() {
         ktlint.android.set(false)
         ktlint.ignoreFailures.set(false)
         ktlint.additionalEditorconfig.set(ktlintRuleSet)
-
         ktlint.reporters {
             reporter(ReporterType.HTML)
         }
