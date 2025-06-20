@@ -1,3 +1,4 @@
+import com.build.logic.config.configureGroupIdAndVersion
 import com.build.logic.config.configureJvmTargetTo11
 import com.build.logic.config.configureKtlint
 
@@ -7,4 +8,5 @@ plugins {
 }
 
 configureKtlint()
+configureGroupIdAndVersion()
 configureJvmTargetTo11(enableToolchain = true)
