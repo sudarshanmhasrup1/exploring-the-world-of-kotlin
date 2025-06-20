@@ -37,6 +37,7 @@ androidApp-versionName = "1.0.0"
 # Desktop app module information
 desktopApp-groupId = "com.cmp.desktop"
 desktopApp-version = "1.0.0"
+desktopApp-mainClass = "com.cmp.desktop.MainAppKt"
 
 [libraries]
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
