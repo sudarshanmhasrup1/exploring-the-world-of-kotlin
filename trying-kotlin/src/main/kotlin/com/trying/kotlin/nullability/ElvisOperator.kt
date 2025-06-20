@@ -1,6 +1,6 @@
 package com.trying.kotlin.nullability
 
-@Suppress("KotlinUnreachableCode")
+@Suppress("KotlinUnreachableCode", "KotlinConstantConditions")
 fun main() {
     var name: String? = "Sudarshan"
     println(message = "Hello from $name.")
