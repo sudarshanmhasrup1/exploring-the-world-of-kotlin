@@ -26,6 +26,7 @@ kotlin {
         commonMain.dependencies {
             implementation(libs.voyager.navigator)
             implementation(libs.compose.multiplatform.ui)
+            implementation(libs.compose.multiplatform.foundation)
             implementation(libs.compose.multiplatform.ui.tooling.preview)
         }
     }
