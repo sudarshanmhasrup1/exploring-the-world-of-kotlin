@@ -1,6 +1,6 @@
 package com.trying.kotlin.strings
 
-import java.util.*
+import java.util.UUID
 
 fun main() {
     val message = buildString {
