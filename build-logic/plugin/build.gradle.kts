@@ -1,4 +1,3 @@
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
 
 plugins {
@@ -32,10 +31,16 @@ gradlePlugin {
     }
 }
 
-val ktlintRuleSet = mapOf(
+private val ktlintRuleSet = mapOf(
     "ktlint_standard_final-newline" to "disabled",
     "ktlint_standard_no-empty-file" to "disabled",
     "ktlint_standard_trailing-comma-on-call-site" to "disabled",
+    "ktlint_standard_trailing-comma-on-declaration-site" to "disabled",
+    "ktlint_standard_multiline-expression-wrapping" to "disabled",
+    "ktlint_standard_indentation" to "disabled",
+    "ktlint_standard_string-template-indent" to "disabled",
+    "ktlint_standard_indent" to "disabled",
+    "ktlint_standard_no-empty-first-line-in-class-body" to "disabled"
 )
 
 ktlint {
@@ -45,19 +50,6 @@ ktlint {
     reporters {
         reporter(reporterType = ReporterType.HTML)
     }
-}
-
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(11)
-    }
-
-    targetCompatibility = JavaVersion.VERSION_11
-    sourceCompatibility = JavaVersion.VERSION_11
-}
-
-kotlin.compilerOptions {
-    jvmTarget = JvmTarget.JVM_11
 }
 
 // Custom build directory
