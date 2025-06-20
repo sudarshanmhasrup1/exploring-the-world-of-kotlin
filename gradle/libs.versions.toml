@@ -18,8 +18,12 @@ learnGradle-groupId = "com.learn.gradle"
 learnGradle-version = "1.0.0"
 
 # Trying kotlin module information
-tryingKotlin-groupId = "com.learn.gradle"
+tryingKotlin-groupId = "com.trying.kotlin"
 tryingKotlin-version = "1.0.0"
+
+# Kotlin playground module information
+kotlinPlayground-groupId = "com.kotlin.playground"
+kotlinPlayground-version = "1.0.0"
 
 # Android app package information
 androidApp-groupId = "com.cmp.android"
@@ -37,8 +41,8 @@ kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotl
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCouroutines" }
 activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
 compose-multiplatform-ui-tooling-preview = { module = "org.jetbrains.compose.components:components-ui-tooling-preview", version.ref = "composeMultiplatform" }
-compose-multiplatform-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "composeMultiplatform" }
 compose-multiplatform-foundation = { module = "org.jetbrains.compose.foundation:foundation", version.ref = "composeMultiplatform" }
+compose-multiplatform-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "composeMultiplatform" }
 voyager-navigator = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyager" }
 
 [plugins]
