@@ -1,6 +1,6 @@
 package com.trying.kotlin.oop
 
-private class BroadcastManager() {
+private class BroadcastManager {
     var currentChannel = 0
         set(value) {
             if (value in 0..100) {
