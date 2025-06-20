@@ -18,7 +18,7 @@ internal object ProjectDirectoryNameManager {
         return formattedName
     }
 
-    internal fun getStringWithFirstLetterCapitalized(value: String): String {
+    private fun getStringWithFirstLetterCapitalized(value: String): String {
 
         var formattedString = ""
         value.forEachIndexed { index, character ->
