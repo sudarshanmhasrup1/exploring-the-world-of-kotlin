@@ -90,7 +90,7 @@ class SmartLightDevice(
 }
 
 // HAS-A relationship
-@Suppress("Unused")
+@Suppress("Unused", "MemberVisibilityCanBePrivate")
 class SmartHome(
     val smartTvDevice: SmartTvDevice,
     val smartLightDevice: SmartLightDevice
