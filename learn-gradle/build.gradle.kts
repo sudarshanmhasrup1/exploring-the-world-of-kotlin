@@ -6,6 +6,7 @@ plugins {
 }
 
 configureGroupIdAndVersion()
+configureJvmTargetTo11(enableToolchain = true)
 
 tasks.register("configure") {
     doFirst {
@@ -28,5 +29,3 @@ tasks.register("run") {
     }
     dependsOn("configure")
 }
-
-configureJvmTargetTo11(enableToolchain = true)
