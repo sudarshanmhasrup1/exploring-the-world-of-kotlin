@@ -67,7 +67,8 @@ fun main() {
 
     val julie = HumanBeing(
         name = "Julie",
-        age = 20, gender = "Female",
+        age = 20,
+        gender = "Female",
         favouriteActor = "Chris Evans"
     )
     displayDivider(bigDivider = true)
