@@ -32,7 +32,6 @@ private val ktlintRuleSet = mapOf(
  */
 fun Project.configureKtlint() {
     this.plugins.withId("org.jlleitschuh.gradle.ktlint") {
-
         val ktlint = project.extensions
             .getByName("ktlint") as KtlintExtension
 

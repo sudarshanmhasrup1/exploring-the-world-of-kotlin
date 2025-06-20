@@ -40,7 +40,6 @@ fun Project.configureBuildDirectory(buildDirectoryPath: String) {
  * Call this method in your module's `build.gradle.kts` to automatically assign group and version.
  */
 fun Project.configureGroupIdAndVersion() {
-
     val libs = project.extensions.getByType(VersionCatalogsExtension::class.java)
         .named("libs")
 
