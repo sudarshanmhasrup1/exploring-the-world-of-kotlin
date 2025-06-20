@@ -5,6 +5,7 @@ private class HumanBeing(
     private val age: Int,
     private val gender: String
 ) {
+
     private var favouriteActor: String? = null
 
     // Secondary constructor
@@ -12,7 +13,7 @@ private class HumanBeing(
         name: String,
         age: Int,
         gender: String,
-        favouriteActor: String?
+        favouriteActor: String?,
     ) : this(
         name = name,
         age = age,
@@ -64,7 +65,11 @@ fun main() {
     displayDivider(bigDivider = true)
     println()
 
-    val julie = HumanBeing(name = "Julie", age = 20, gender = "Female", favouriteActor = "Chris Evans")
+    val julie = HumanBeing(
+        name = "Julie",
+        age = 20, gender = "Female",
+        favouriteActor = "Chris Evans"
+    )
     displayDivider(bigDivider = true)
     julie.displayInformation()
     displayDivider()
