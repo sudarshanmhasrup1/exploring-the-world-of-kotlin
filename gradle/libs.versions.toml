@@ -34,6 +34,10 @@ androidApp-minSdk = "30"
 androidApp-versionCode = "1"
 androidApp-versionName = "1.0.0"
 
+# Desktop app module information
+desktopApp-groupId = "com.cmp.desktop"
+desktopApp-version = "1.0.0"
+
 [libraries]
 kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 ktlint-gradle-plugin = { module = "org.jlleitschuh.gradle.ktlint:org.jlleitschuh.gradle.ktlint.gradle.plugin", version.ref = "ktlint" }
