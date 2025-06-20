@@ -8,7 +8,7 @@ fun main() {
         "Red" -> {
             println(message = "Stop")
         }
-        "Yello", "Amber" -> {
+        "Yellow", "Amber" -> {
             println(message = "Slow")
         }
         "Green" -> {
