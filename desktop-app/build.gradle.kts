@@ -7,6 +7,7 @@ plugins {
     alias(libs.plugins.ktlint)
     alias(libs.plugins.kotlin.compiler)
     alias(libs.plugins.compose.multiplatform)
+    alias(libs.plugins.compose.compiler)
 }
 
 configureGroupIdAndVersion()
@@ -15,6 +16,11 @@ configureJvmTargetTo11(enableToolchain = true)
 
 compose.desktop {
     application {
-        mainClass = "com.cmp.desktop.MainAppKt"
+        mainClass = libs.versions.desktopApp.mainClass.get()
     }
+}
+
+dependencies {
+    implementation(compose.desktop.currentOs)
+    implementation(project(":compose-app"))
 }
