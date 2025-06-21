@@ -3,7 +3,6 @@ package com.build.logic.util
 internal object ProjectDirectoryNameManager {
 
     fun getFormattedProjectDirectoryName(projectDirectoryName: String): String {
-
         val nameSeparatedByDashList = projectDirectoryName.split("-")
         var formattedName = ""
 
@@ -19,7 +18,6 @@ internal object ProjectDirectoryNameManager {
     }
 
     private fun getStringWithFirstLetterCapitalized(value: String): String {
-
         var formattedString = ""
         value.forEachIndexed { index, character ->
             formattedString += if (index == 0) {
